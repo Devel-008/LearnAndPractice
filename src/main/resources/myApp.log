@@ -1,0 +1,128 @@
+15:48:37.137 [main] INFO  com.exception.logger.MyApp1 - Entering application.
+15:48:37.160 [main] DEBUG com.exception.logger.Foo - Did it again!
+15:48:37.160 [main] INFO  com.exception.logger.MyApp1 - Exiting application.
+11:26:47.170 [main] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11438d26
+11:26:47.709 [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [Beans.xml]
+11:26:47.837 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:26:47.975 [main] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [Beans.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are:
+PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'driverClassName' threw exception; nested exception is java.lang.IllegalStateException: Could not load JDBC driver class [com.mysql.jdbc.Driver]
+11:29:30.632 [main] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d
+11:29:31.083 [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [Beans.xml]
+11:29:31.230 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:29:31.328 [main] DEBUG o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+11:29:31.341 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+11:29:31.363 [main] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [src.main.java.com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java] for bean with name 'studentJDBCTemplate' defined in class path resource [Beans.xml]; nested exception is java.lang.ClassNotFoundException: src.main.java.com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java
+11:31:05.159 [main] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1877ab81
+11:31:05.414 [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [Beans.xml]
+11:31:05.514 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:31:05.621 [main] DEBUG o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+11:31:05.633 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+11:31:05.646 [main] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java] for bean with name 'jdbcTemplateObject' defined in class path resource [Beans.xml]; nested exception is java.lang.ClassNotFoundException: com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java
+11:32:10.506 [main] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@305fd85d
+11:32:11.068 [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [Beans.xml]
+11:32:11.173 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:32:11.268 [main] DEBUG o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+11:32:11.281 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+11:32:11.293 [main] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java] for bean with name 'studentJDBCTemplate' defined in class path resource [Beans.xml]; nested exception is java.lang.ClassNotFoundException: com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java
+11:39:41.119 [main] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5faeada1
+11:39:41.647 [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [Beans.xml]
+11:39:41.788 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:39:42.114 [main] DEBUG o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+11:39:42.127 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+11:39:42.154 [main] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java] for bean with name 'studentJDBCTemplate' defined in class path resource [Beans.xml]; nested exception is java.lang.ClassNotFoundException: com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java
+11:42:23.480 [main] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5faeada1
+11:42:23.768 [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [Beans.xml]
+11:42:23.825 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:42:23.994 [main] DEBUG o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+11:42:23.996 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+11:42:24.015 [main] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java] for bean with name 'studentJDBCTemplate' defined in class path resource [Beans.xml]; nested exception is java.lang.ClassNotFoundException: com.exception.logger.ProgrammaticManagement.StudentJDBCTemplate.java
+11:46:13.446 [main] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5faeada1
+11:46:13.696 [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [Beans.xml]
+11:46:13.744 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:46:13.857 [main] DEBUG o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+11:46:13.860 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+11:46:13.873 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'studentJDBCTemplate'
+11:46:13.972 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+11:46:13.974 [main] DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/test]
+11:46:14.180 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [conn0: url=jdbc:h2:tcp://localhost/~/test user=SA] for JDBC transaction
+11:46:14.191 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/~/test user=SA] to manual commit
+11:46:14.198 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:46:14.198 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into StudentRecords (name, age) values (?, ?)]
+11:46:14.314 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select max(id) from StudentRecords]
+11:46:14.321 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:46:14.321 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into studentRecordMarks(sid, marks, years) values (?, ?, ?)]
+11:46:14.323 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+11:46:14.323 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [conn0: url=jdbc:h2:tcp://localhost/~/test user=SA]
+11:46:14.324 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/~/test user=SA] after transaction
+11:46:14.329 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+11:46:14.329 [main] DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/test]
+11:46:14.334 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [conn1: url=jdbc:h2:tcp://localhost/~/test user=SA] for JDBC transaction
+11:46:14.334 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [conn1: url=jdbc:h2:tcp://localhost/~/test user=SA] to manual commit
+11:46:14.334 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:46:14.335 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into StudentRecords (name, age) values (?, ?)]
+11:46:14.336 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select max(id) from StudentRecords]
+11:46:14.339 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:46:14.339 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into studentRecordMarks(sid, marks, years) values (?, ?, ?)]
+11:46:14.340 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+11:46:14.340 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [conn1: url=jdbc:h2:tcp://localhost/~/test user=SA]
+11:46:14.342 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [conn1: url=jdbc:h2:tcp://localhost/~/test user=SA] after transaction
+11:46:14.343 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+11:46:14.343 [main] DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/test]
+11:46:14.348 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [conn2: url=jdbc:h2:tcp://localhost/~/test user=SA] for JDBC transaction
+11:46:14.348 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [conn2: url=jdbc:h2:tcp://localhost/~/test user=SA] to manual commit
+11:46:14.349 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:46:14.349 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into StudentRecords (name, age) values (?, ?)]
+11:46:14.349 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select max(id) from StudentRecords]
+11:46:14.351 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:46:14.352 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into studentRecordMarks(sid, marks, years) values (?, ?, ?)]
+11:46:14.353 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+11:46:14.353 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [conn2: url=jdbc:h2:tcp://localhost/~/test user=SA]
+11:46:14.354 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [conn2: url=jdbc:h2:tcp://localhost/~/test user=SA] after transaction
+11:46:14.356 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select * from studentRecords, studentRecordMarks where studentRecords.id = studentRecordMarks.sid]
+11:46:14.356 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:46:14.356 [main] DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/test]
+11:49:46.084 [main] DEBUG o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5faeada1
+11:49:46.364 [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from class path resource [Beans.xml]
+11:49:46.480 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:49:46.596 [main] DEBUG o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.h2.Driver
+11:49:46.598 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+11:49:46.618 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'studentJDBCTemplate'
+11:49:46.655 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+11:49:46.656 [main] DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/test]
+11:49:46.788 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [conn0: url=jdbc:h2:tcp://localhost/~/test user=SA] for JDBC transaction
+11:49:46.791 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/~/test user=SA] to manual commit
+11:49:46.793 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:49:46.794 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into StudentRecords (name, age) values (?, ?)]
+11:49:46.845 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select max(id) from StudentRecords]
+11:49:46.855 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:49:46.855 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into studentRecordMarks(sid, marks, years) values (?, ?, ?)]
+11:49:46.860 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+11:49:46.860 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [conn0: url=jdbc:h2:tcp://localhost/~/test user=SA]
+11:49:46.863 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [conn0: url=jdbc:h2:tcp://localhost/~/test user=SA] after transaction
+11:49:46.868 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+11:49:46.868 [main] DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/test]
+11:49:46.876 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [conn1: url=jdbc:h2:tcp://localhost/~/test user=SA] for JDBC transaction
+11:49:46.876 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [conn1: url=jdbc:h2:tcp://localhost/~/test user=SA] to manual commit
+11:49:46.876 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:49:46.876 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into StudentRecords (name, age) values (?, ?)]
+11:49:46.878 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select max(id) from StudentRecords]
+11:49:46.880 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:49:46.880 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into studentRecordMarks(sid, marks, years) values (?, ?, ?)]
+11:49:46.881 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+11:49:46.882 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [conn1: url=jdbc:h2:tcp://localhost/~/test user=SA]
+11:49:46.883 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [conn1: url=jdbc:h2:tcp://localhost/~/test user=SA] after transaction
+11:49:46.884 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+11:49:46.884 [main] DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/test]
+11:49:46.889 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [conn2: url=jdbc:h2:tcp://localhost/~/test user=SA] for JDBC transaction
+11:49:46.889 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [conn2: url=jdbc:h2:tcp://localhost/~/test user=SA] to manual commit
+11:49:46.890 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:49:46.890 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into StudentRecords (name, age) values (?, ?)]
+11:49:46.891 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select max(id) from StudentRecords]
+11:49:46.893 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL update
+11:49:46.893 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing prepared SQL statement [insert into studentRecordMarks(sid, marks, years) values (?, ?, ?)]
+11:49:46.895 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+11:49:46.895 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [conn2: url=jdbc:h2:tcp://localhost/~/test user=SA]
+11:49:46.897 [main] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [conn2: url=jdbc:h2:tcp://localhost/~/test user=SA] after transaction
+11:49:46.899 [main] DEBUG o.s.jdbc.core.JdbcTemplate - Executing SQL query [select * from studentRecords, studentRecordMarks where studentRecords.id = studentRecordMarks.sid]
+11:49:46.899 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+11:49:46.899 [main] DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:h2:tcp://localhost/~/test]
