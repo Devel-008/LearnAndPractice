@@ -1,4 +1,4 @@
-package com.exception.DeclarativeTransactionManagement;
+package com.exception.transaction.DeclarativeTransactionManagement;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

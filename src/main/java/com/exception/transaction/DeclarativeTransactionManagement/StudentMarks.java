@@ -1,4 +1,4 @@
-package com.exception.DeclarativeTransactionManagement;
+package com.exception.transaction.DeclarativeTransactionManagement;
 
 public class StudentMarks {
     private Integer age;

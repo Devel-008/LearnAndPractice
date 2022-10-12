@@ -1,9 +1,8 @@
-package com.exception.ProgrammaticManagement;
+package com.exception.transaction.ProgrammaticManagement;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.exception.ProgrammaticManagement.StudentMarks;
 import org.springframework.jdbc.core.RowMapper;
 
 public class StudentMarksMapper implements RowMapper<StudentMarks> {

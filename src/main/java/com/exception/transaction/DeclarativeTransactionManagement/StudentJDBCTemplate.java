@@ -1,4 +1,4 @@
-package com.exception.DeclarativeTransactionManagement;
+package com.exception.transaction.DeclarativeTransactionManagement;
 
 import java.util.List;
 import javax.sql.DataSource;
@@ -13,14 +13,14 @@ public class StudentJDBCTemplate implements StudentDAO {
     }
     public void create(String name, Integer age, Integer marks, Integer year){
         try {
-            String SQL1 = "insert into Student (name, age) values (?, ?)";
+            String SQL1 = "insert into studentRecords (name, age) values (?, ?)";
             jdbcTemplateObject.update( SQL1, name, age);
 
             // Get the latest student id to be used in Marks table
 
-            int sid = jdbcTemplateObject.queryForObject("select max(id) from Student", Integer.class );
+            int sid = jdbcTemplateObject.queryForObject("select max(id) from studentRecords", Integer.class );
 
-            String SQL3 = "insert into Marks(sid, marks, year) " + "values (?, ?, ?)";
+            String SQL3 = "insert into studentRecordsMarks(sid, marks, year) " + "values (?, ?, ?)";
             jdbcTemplateObject.update( SQL3, sid, marks, year);
             System.out.println("Created Name = " + name + ", Age = " + age);
 
@@ -33,10 +33,9 @@ public class StudentJDBCTemplate implements StudentDAO {
         }
     }
     public List<StudentMarks> listStudents() {
-        String SQL = "select * from Student, Marks where Student.id = Marks.sid";
+        String SQL = "select * from studentRecords, studentRecordsMarks where studentRecords.id = studentRecordsMarks.sid";
         List <StudentMarks> studentMarks = jdbcTemplateObject.query(SQL,
                 new StudentMarksMapper());
-
         return studentMarks;
     }
 }

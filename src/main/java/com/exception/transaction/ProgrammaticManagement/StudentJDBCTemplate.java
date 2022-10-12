@@ -1,4 +1,4 @@
-package com.exception.ProgrammaticManagement;
+package com.exception.transaction.ProgrammaticManagement;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;

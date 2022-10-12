@@ -1,4 +1,4 @@
-package com.exception.DeclarativeTransactionManagement;
+package com.exception.transaction.DeclarativeTransactionManagement;
 
 import java.util.List;
 import org.springframework.context.ApplicationContext;
@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainApp {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 
         StudentDAO studentJDBCTemplate =
                 (StudentDAO)context.getBean("studentJDBCTemplate");

@@ -1,4 +1,4 @@
-package com.exception.ProgrammaticManagement;
+package com.exception.transaction.ProgrammaticManagement;
 
 public class StudentMarks {
     private Integer age;

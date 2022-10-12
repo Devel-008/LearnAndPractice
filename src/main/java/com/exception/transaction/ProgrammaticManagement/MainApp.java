@@ -1,4 +1,4 @@
-package com.exception.ProgrammaticManagement;
+package com.exception.transaction.ProgrammaticManagement;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainApp {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("com/exception/transaction/ProgrammaticManagement/context.xml");
         StudentJDBCTemplate studentJDBCTemplate =
                 (StudentJDBCTemplate)context.getBean("studentJDBCTemplate");
 

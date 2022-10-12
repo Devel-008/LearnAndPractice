@@ -1,4 +1,4 @@
-package com.exception.ProgrammaticManagement;
+package com.exception.transaction.DeclarativeTransactionManagement;
 
 import java.util.List;
 import javax.sql.DataSource;
